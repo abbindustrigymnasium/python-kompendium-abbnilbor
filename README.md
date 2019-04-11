@@ -1,2 +1,3 @@
 # python-kompendium-abbnilbor
-Mina uppgifter i python kompendiumet
+Mina uppgifter i python kompendiet
+
