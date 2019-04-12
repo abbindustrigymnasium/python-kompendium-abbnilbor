@@ -1,4 +1,4 @@
-import ui #importerar våra tidigare filet
+import ui #importerar våra tidigare filer
 import web 
 
 ui.line()
@@ -15,13 +15,13 @@ a=ui.prompt("Selection")
 running="yes" #sätter någonting vi kan loopa med
 
 while running=="yes":
-    b=web.get("https://5hyqtreww2.execute-api.eu-north-1.amazonaws.com/artists/") #tidigare url:en, b kommer alltid att uppdateas när vi frågar efter information
+    b=web.get("https://5hyqtreww2.execute-api.eu-north-1.amazonaws.com/artists/") #tidigare url:en, b kommer alltid att uppdateras när vi frågar efter information
     if a.title()=="L": #om valet är l eller L
         ui.line()
         ui.header("ARTIST DATABASE")
         ui.line()
         for x in b["artists"]: #för alla värden i artists
-            ui.echo(x["name"]) #letar den efter namn och skriver ut det
+            ui.echo(x["name"]) #letar den efter namn och skriver ut det som finns där
         ui.line(True)
         ui.echo("L", "List artists")
         ui.echo("V", "View artist profile")
@@ -38,7 +38,7 @@ while running=="yes":
             if c.title()==x["name"]:
                 ui.header(c.title())
                 ui.line(True)
-                check=True #om något av värdena matchar det i dictionaryt, komemr check bli true
+                check=True #om något av värdena matchar det i dictionaryt, kommer check bli true
         if check==True: #om ett värde har hittats
             for y in b["artists"]:
                 if y["name"]==c.title():
