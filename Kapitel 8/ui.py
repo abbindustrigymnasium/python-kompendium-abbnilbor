@@ -1,4 +1,4 @@
-def line(dots=False):
+def line(dots=False): #sätter värdet om parametern är tom till False
     loop=0
     text="" #sätter variablar för loopen
     if dots==True:
