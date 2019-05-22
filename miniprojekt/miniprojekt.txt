@@ -1,0 +1,84 @@
+import library that can generate random numbers
+
+List of lists that contain party names, weather they're left or right wing, what block 
+they are part of, the minimum amount of %votes and the maximum amount of %votes
+
+VoteRunning variable set to true
+
+ShowRunning variable set to true
+
+while VoteRunning is true
+    loop variable set to 0
+    cheat variable set to 0
+    votes empty list
+
+    for each value in parties list, generate a random number between the position that contains
+    minimum percent and maximum percent and add it to the empty list
+
+
+    for each value in votes
+        add them to cheat
+    
+    if cheat is less than or equal to 100
+       print out all the parties and how many precent they got if they got more than 4
+       set running to false
+
+
+function show
+    print cheat "% of people voted in the election"
+
+    save the highest numbers position in winner variable
+
+    print the name and the amount of votes the party at that position in parties list
+
+    create empty dictyionary block
+
+    make one key per block which has the value of the parties votes added together
+
+    extract the maximum value of the dictinary and print the according block
+
+    same thing but with left or right wing
+
+    print cheat "% of people participated"
+
+
+for every party that got more than 4 & votes
+    generate a random number between 1 and 10
+    if that number =1
+    subtract 4% from their score and add it to another random party
+    generate between 1 and 10 bad things their party leader said
+    run function show 
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
