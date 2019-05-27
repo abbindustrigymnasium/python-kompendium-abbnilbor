@@ -40,6 +40,9 @@ function show
     same thing but with left or right wing
 
     print cheat "% of people participated"
+   
+   
+run function show
 
 
 for every party that got more than 4 & votes
