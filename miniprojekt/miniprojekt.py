@@ -125,7 +125,7 @@ for x in Röster: #för varje rösttal
 if changeHappened==True: #om det har blivit någon förändring
     print("Det nya resulatet är: ") 
     time.sleep(2)
-    Show() #runnas funktionen igen
+    Show() #runnar funktionen igen
 
 
 
